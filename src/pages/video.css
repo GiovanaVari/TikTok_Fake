@@ -1,0 +1,14 @@
+.video{
+    height: 100%;
+    width: 100%;
+    /*Inicia o proximo video quando rolar a tela*/
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.video__player{
+    height: 100%;
+    width: 100%;
+    /*Estica o espaço de reproducao*/
+    object-fit: fill;
+}
